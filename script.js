@@ -38,3 +38,5 @@ többsoros
 
  //2. Objektum (Object) {}
  console.log({"firstname": "Jakab"})
+
+ document.getElementById("cim").style.backgroundColor = "orange";
