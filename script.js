@@ -15,7 +15,7 @@ többsoros
  //Adattípusok
 
  //1. szöveg (string)
- console.log("ez egy szoveg");
+ console.log("ez egy szoveg tipus...");
 
  //2. szám (number)
  console.log(123);
