@@ -21,9 +21,34 @@ többsoros
  console.log(123);
 
  //3. logikai típus (bool)
+
  //két értéket vehet fel; true/false
  console.log(true);
  console.log(false);
+ // logikai ÉS
+ // (boolean, boolean) --> boolean
+// negálás:
+//  ...
+// undefined
+console.log(undefined);
+
+//null
+console.log(null);
+
+    /*
+    *Array (tömb)
+    */
+
+    // Array<_>
+    // array of ?
+    // array<string>
+    
+    console.log(['elso', 'masodik', 'harmadik']);
+    // szűrés
+    // sorba rendezés
+    // új elem hozzáadása
+    // aggregálás
+
 
  //4. undefined
  console.log(undefined);
@@ -40,3 +65,4 @@ többsoros
  console.log({"firstname": "Jakab"})
 
  document.getElementById("cim").style.backgroundColor = "orange";
+ 
