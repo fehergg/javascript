@@ -66,3 +66,35 @@ console.log(null);
 
  document.getElementById("cim").style.backgroundColor = "orange";
  
+
+
+ //kulcs-érték párok sorozata
+ console.log(
+    {
+firstname: 'Kolompos'
+lastname: 'Kolompár'
+Age: '88'
+    }.
+ );
+
+ //lookup, kulcs alapú kikérés
+ console.log(
+    {
+firstname: 'Kolompos'
+lastname: 'Kolompár'
+Age: '88'
+    }['lastname']
+ );
+
+ console.log(
+    {
+firstname: 'Kolompos'
+lastname: 'Kolompár'
+Age: '88'
+Address: {
+    Street: 'Cigány u.'
+    City: 'Mászlony'
+
+}
+    }.Address.Street
+ );
